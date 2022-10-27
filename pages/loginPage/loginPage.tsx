@@ -1,6 +1,7 @@
 
 import 'tailwindcss/tailwind.css'
 import Button from "../../UI/Button";
+import CreateNewAccount from "../createNewAccount";
 
 
 export const loginPage = () => {
@@ -42,10 +43,12 @@ export const loginPage = () => {
                         </a>
                     </div>
                 </form>
+                <CreateNewAccount />
                 <p className="text-center text-gray-500 text-xs">
                     &copy;2020 Acme Corp. All rights reserved.
                 </p>
             </div>
+
         </>
     )
 }
