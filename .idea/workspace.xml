@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Sign up form is completed.">
+    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Adjusted header font weight.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/loginPage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/loginPage/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/signUp/signUp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signUp/signUp.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,7 @@
       <workItem from="1664331720921" duration="3853000" />
       <workItem from="1664573152656" duration="9292000" />
       <workItem from="1665020101868" duration="45110000" />
-      <workItem from="1666902676894" duration="13022000" />
+      <workItem from="1666902676894" duration="14882000" />
     </task>
     <task id="LOCAL-00001" summary="Made some modifications to the app.">
       <created>1666892757166</created>
@@ -94,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666912751238</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adjusted header font weight.">
+      <created>1666929751094</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666929751094</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +125,7 @@
     <MESSAGE value="Made some modifications to the app." />
     <MESSAGE value="Added sign up component with styles." />
     <MESSAGE value="Sign up form is completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Sign up form is completed." />
+    <MESSAGE value="Adjusted header font weight." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted header font weight." />
   </component>
 </project>

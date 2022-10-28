@@ -1,4 +1,4 @@
 
-import {loginPage} from "./loginPage";
+import {LoginPage} from "./loginPage";
 
-export default loginPage;
+export default LoginPage;
