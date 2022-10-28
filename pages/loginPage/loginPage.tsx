@@ -2,7 +2,7 @@ import 'tailwindcss/tailwind.css'
 import useInput from "../../hooks";
 import CreateNewAccount from "../createNewAccount";
 
-const isNotEmpty = value => value.trim() !== ""
+const isNotEmpty = (value) => value.trim() !== ''
 
 export const LoginPage = () => {
 
@@ -24,6 +24,22 @@ export const LoginPage = () => {
         reset: resetPasswordInput
     } = useInput(isNotEmpty)
 
+    let formIsValid = false;
+    if (enteredUserNameIsValid && enteredPasswordIsValid) {
+        formIsValid = true
+    }
+
+    const submissionHandler = (event: React.FormEvent) => {
+        event.preventDefault()
+        if (!enteredUserNameIsValid && !enteredPasswordIsValid) {
+            return;
+        }
+
+        resetUserNameInput();
+        resetPasswordInput();
+
+    }
+
     return (
         <>
 
@@ -33,35 +49,37 @@ export const LoginPage = () => {
                     and locations with others. </h3>
             </div>
             <div className="w-full max-w-xs text-center m-auto"> {/*This is the card that holds the login form */}
-                <form className="bg-gray-200 shadow-md rounded px-8 pt-6 pb-8 mb-4 align-middle">
+                <form className="bg-gray-200 shadow-md rounded px-8 pt-6 pb-8 mb-4 align-middle"
+                      onSubmit={submissionHandler}>
                     <div className="mb-4">
                         <input
                             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                             id="username" type="text"
                             placeholder="Username"
-                            value={enteredUserName}
                             onChange={userNameChangedHandler}
                             onBlur={userNameBlurHandler}
+                            value={enteredUserName}
                         />
                         {userNameInputHasError && (
                             <p className="text-red-500 text-xs italic mt-2">Please Enter Your Username</p>)}
                     </div>
                     <div className="mb-6">
                         <input
-                            className="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
                             id="password"
                             type="password"
                             placeholder="Password"
-                            value={enteredPassword}
                             onChange={passwordChangedHandler}
                             onBlur={passwordBlurHandler}
+                            value={enteredPassword}
                         />
-                        {passwordInputHasError && (<p className="text-red-500 text-xs italic mt-2">Please Enter Your Password</p>)}
+                        {passwordInputHasError && (
+                            <p className="text-red-500 text-xs italic mt-2">Please Enter Your Password</p>)}
                     </div>
                     <div className="flex items-center justify-between">
                         <button
-                            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                            type="button">
+                            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline disabled:opacity-60"
+                            disabled={!formIsValid}>
                             Sign In
                         </button>
                         <a className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800"
