@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Added sign up component with styles.">
-      <change afterPath="$PROJECT_DIR$/hooks/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/use-input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/signUp/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/signUp/signUp.tsx" afterDir="false" />
+    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Sign up form is completed.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" afterDir="false" />
     </list>
@@ -44,26 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ulisesorozco/Desktop/Portfolio Projects/thriftster-app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/ulisesorozco/Desktop/Portfolio Projects/thriftster-app/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/ulisesorozco/Desktop/Portfolio Projects/thriftster-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "/Users/ulisesorozco/Desktop/Portfolio Projects/thriftster-app/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,7 +71,7 @@
       <workItem from="1664331720921" duration="3853000" />
       <workItem from="1664573152656" duration="9292000" />
       <workItem from="1665020101868" duration="45110000" />
-      <workItem from="1666902676894" duration="8818000" />
+      <workItem from="1666902676894" duration="13022000" />
     </task>
     <task id="LOCAL-00001" summary="Made some modifications to the app.">
       <created>1666892757166</created>
@@ -91,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666894844996</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sign up form is completed.">
+      <created>1666912751237</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666912751238</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +115,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Made some modifications to the app." />
     <MESSAGE value="Added sign up component with styles." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added sign up component with styles." />
+    <MESSAGE value="Sign up form is completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Sign up form is completed." />
   </component>
 </project>

@@ -9,7 +9,7 @@ export const loginPage = () => {
         <>
 
             <div>
-                <h1 className="text-blue-700 text-2xl text-center font-bold font-loginpage mb-3" >THRIFSTER</h1>
+                <h1 className="text-blue-700 text-2xl text-center font-thin font-loginpage mb-3 text-5xl" >THRIFTSTER</h1>
                 <h3 className="text-blue-700 text-center font-bold font-loginpage mb-3">Share your thrift store finds and locations with others.  </h3>
             </div>
             <div className="w-full max-w-xs text-center m-auto"> {/*This is the card that holds the login form */}
