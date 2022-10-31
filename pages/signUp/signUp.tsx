@@ -1,4 +1,5 @@
 import useInput from "../../hooks";
+import Link from "next/link";
 
 
 const isNotEmpty = (value) => value.trim() !== ''
@@ -130,7 +131,13 @@ export const SignUp = () => {
                             disabled={!formIsValid}>
                             Sign up!
                         </button>
+                        <Link href='/loginPage'>
+                            <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow m-auto">
+                                Cancel
+                            </button>
+                        </Link>
                     </div>
+
                 </form>
                 <p className="text-center text-gray-500 text-xs">
                     &copy;2022 Uli Corp. All rights reserved.

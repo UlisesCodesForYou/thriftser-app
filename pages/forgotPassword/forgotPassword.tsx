@@ -1,7 +1,8 @@
 import useInput from "../../hooks";
 import CreateNewAccount from "../createNewAccount";
+import Link from "next/link";
 
-const isNotEmpty = (value) => value.trim() !== ''
+
 const isEmail = (value) => value.includes('@')
 
 export const ForgotPassword = () => {
@@ -58,6 +59,11 @@ export const ForgotPassword = () => {
                             disabled={!formIsValid}>
                             Send login link
                         </button>
+                        <Link href='/loginPage'>
+                            <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow m-auto">
+                                Cancel
+                            </button>
+                        </Link>
                     </div>
                 </form>
                 <div className="inline-flex justify-center items-center w-full">
