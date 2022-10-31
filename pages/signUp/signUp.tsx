@@ -124,6 +124,7 @@ export const SignUp = () => {
                             <p className="text-red-500 text-xs italic">Please Choose A Password.</p>)}
                     </div>
                     <div className="flex items-center justify-between">
+                        {/*Create a modal that lets the user know to check their email for confirmation*/}
                         <button
                             className="bg-blue-500 hover:bg-blue-700 text-white m-auto font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline disabled:opacity-60"
                             disabled={!formIsValid}>

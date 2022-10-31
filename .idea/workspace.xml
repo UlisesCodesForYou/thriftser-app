@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="both buttons are now disabled until the forms are valid.">
-      <change afterPath="$PROJECT_DIR$/pages/forgotPassword/forgotPassword.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/forgotPassword/index.tsx" afterDir="false" />
+    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Created mock home page and linked pages together">
+      <change afterPath="$PROJECT_DIR$/pages/homePage/homePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/homePage/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/createNewAccount/createNewAccount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/createNewAccount/createNewAccount.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/signUp/signUp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signUp/signUp.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +76,8 @@
       <workItem from="1664573152656" duration="9292000" />
       <workItem from="1665020101868" duration="45110000" />
       <workItem from="1666902676894" duration="20510000" />
-      <workItem from="1666987077578" duration="2714000" />
+      <workItem from="1666987077578" duration="6144000" />
+      <workItem from="1667160689788" duration="3796000" />
     </task>
     <task id="LOCAL-00001" summary="Made some modifications to the app.">
       <created>1666892757166</created>
@@ -117,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666986146124</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added forgot password page.">
+      <created>1666999761380</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666999761380</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +153,8 @@
     <MESSAGE value="Adjusted header font weight." />
     <MESSAGE value="Added log in page validation" />
     <MESSAGE value="both buttons are now disabled until the forms are valid." />
-    <option name="LAST_COMMIT_MESSAGE" value="both buttons are now disabled until the forms are valid." />
+    <MESSAGE value="Added forgot password page." />
+    <MESSAGE value="Created mock home page and linked pages together" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created mock home page and linked pages together" />
   </component>
 </project>
