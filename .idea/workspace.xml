@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Added cancel buttons that take the user back to log in page">
+    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Added a static home page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/homePage/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homePage/homePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <workItem from="1665020101868" duration="45110000" />
       <workItem from="1666902676894" duration="20510000" />
       <workItem from="1666987077578" duration="6144000" />
-      <workItem from="1667160689788" duration="19838000" />
+      <workItem from="1667160689788" duration="27290000" />
     </task>
     <task id="LOCAL-00001" summary="Made some modifications to the app.">
       <created>1666892757166</created>
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667196841257</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added a static home page.">
+      <created>1667248350221</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667248350222</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +174,7 @@
     <MESSAGE value="Added forgot password page." />
     <MESSAGE value="Created mock home page and linked pages together" />
     <MESSAGE value="Added cancel buttons that take the user back to log in page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added cancel buttons that take the user back to log in page" />
+    <MESSAGE value="Added a static home page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a static home page." />
   </component>
 </project>
