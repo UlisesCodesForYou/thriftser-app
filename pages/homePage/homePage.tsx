@@ -4,42 +4,45 @@ export const HomePage = () => {
     return (
         <>
             <div className='min-h-screen bg-blue-600'>
-                <div className='p-4 text-white bg-gray'>
-                    <div className='flex justify-between items-center mb-2'>
-                        <h1 className='text-2xl uppercase text-left font-extrabold'>Thriftster</h1>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                             strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-2xl mr-2 m-auto">
-                            <path strokeLinecap="round" strokeLinejoin="round"
-                                  d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"/>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                             strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-2xl mr-2">
-                            <path strokeLinecap="round" strokeLinejoin="round"
-                                  d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/>
-                            <path strokeLinecap="round" strokeLinejoin="round"
-                                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/>
-                        </svg>
-                    </div>
+                <nav className='fixed w-full z-20 top-0 left-0 bg-blue-600'>
+                    <div className='p-4 text-white bg-gray'>
+                        <div className='flex justify-between items-center mb-2'>
+                            <h1 className='text-2xl uppercase text-left font-extrabold'>Thriftster</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                 strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-2xl mr-2 m-auto">
+                                <path strokeLinecap="round" strokeLinejoin="round"
+                                      d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                 strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-2xl mr-2">
+                                <path strokeLinecap="round" strokeLinejoin="round"
+                                      d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                <path strokeLinecap="round" strokeLinejoin="round"
+                                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/>
+                            </svg>
+                        </div>
 
-                </div>
+                    </div>
+                </nav>
+
                 <div className='flex justify-center mt-.25 mb-3'>
                     <div className='bg-white w-96'>
                         <header className='px-4 py-3 flex items-center justify-between'>
                             <div className='flex items-center font-bold'>
-                                 <span className='mr-2'>
-                                       <Image className="h-8 w-8 rounded-full" width='50' height='50'
-                                              src="https://picsum.photos/id/1027/150/150"/>
-                                 </span>
+                                 <div className='mr-2'>
+                                       <Image className="h-8 w-8 rounded-full" width={50} height={50}
+                                              src="https://picsum.photos/id/1027/150/150" alt=''/>
+                                 </div>
                                 <span>Shirt Girl</span>
                             </div>
                             <div className='float-right'>
-                                <span>
+                                <div>
                                     <i className='font-extrabold'>+</i>
-                                </span>
+                                </div>
                             </div>
                         </header>
-                        <div className='pr-4 pl-4'>
-                            <Image src="https://picsum.photos/id/244/900/900" width='500' height='500'/>
+                        <div className='pr-4 pl-4 '>
+                            <Image src="https://picsum.photos/id/244/900/900" width={500} height={500} alt=''/>
                         </div>
                         <div className='p-4'>
                             <div className='flex justify-between items-center mb-2'>

@@ -1,11 +1,15 @@
 import useInput from "../../hooks";
 import Link from "next/link";
+import Modal from '../../UI/Modals/index'
+import {useState} from 'react'
 
 
 const isNotEmpty = (value) => value.trim() !== ''
 const isEmail = (value) => value.includes('@')
 
 export const SignUp = () => {
+    const [signedUp, setIsSignedUp] = useState<any>()
+
     const {
         value: enteredEmail,
         hasError: emailInputHasError,
@@ -47,13 +51,19 @@ export const SignUp = () => {
     let formIsValid = false;
     if (enteredNameIsValid && enteredEmailIsValid && enteredUserNameIsValid && enteredPasswordIsValid) {
         formIsValid = true
+        setIsSignedUp({
+            title: "Welcome!",
+            message: "You are now signed up! Let's go find that hidden treasure!"
+        })
+
     }
 
-    const formSubmissionHandler = (event: React.FormEvent) => {
+    const formSubmissionHandler = (event) => {
         event.preventDefault()
         if (!enteredNameIsValid && !enteredEmailIsValid && !enteredUserNameIsValid && !enteredPasswordIsValid) {
             return;
         }
+
 
         resetNameInput();
         resetEmailInput();
@@ -70,6 +80,8 @@ export const SignUp = () => {
                     and locations with others. </h3>
             </div>
 
+
+            <Modal title={signedUp.title} message ={signedUp.message} />
             <div className="w-full max-w-xs text-center m-auto"> {/*This is the card that holds the login form */}
                 <form className="bg-gray-200 shadow-md rounded px-8 pt-6 pb-8 mb-4 align-middle"
                       onSubmit={formSubmissionHandler}>
