@@ -1,14 +1,19 @@
 import useInput from "../../hooks";
 import Link from "next/link";
 import Modal from '../../UI/Modals/index'
-import {useState} from 'react'
+import React, {useState} from 'react'
 
 
-const isNotEmpty = (value) => value.trim() !== ''
-const isEmail = (value) => value.includes('@')
+const isNotEmpty = (value: string) => value.trim() !== ''
+const isEmail = (value: string) => value.includes('@')
 
-export const SignUp = () => {
-    const [signedUp, setIsSignedUp] = useState<any>()
+export const SignUp = (props) => {
+    const [modalOn, setModalOn] = useState<boolean>(false);
+    const [choice, setChoice] = useState<boolean>(false);
+
+    const clicked = () => {
+        setModalOn(true)
+    }
 
     const {
         value: enteredEmail,
@@ -48,40 +53,36 @@ export const SignUp = () => {
     } = useInput(isNotEmpty)
 
 
-    let formIsValid = false;
+    let formIsValid: boolean;
+    formIsValid = false;
     if (enteredNameIsValid && enteredEmailIsValid && enteredUserNameIsValid && enteredPasswordIsValid) {
         formIsValid = true
-        setIsSignedUp({
-            title: "Welcome!",
-            message: "You are now signed up! Let's go find that hidden treasure!"
-        })
-
     }
 
-    const formSubmissionHandler = (event) => {
+    const formSubmissionHandler = (event: React.FormEvent) => {
         event.preventDefault()
         if (!enteredNameIsValid && !enteredEmailIsValid && !enteredUserNameIsValid && !enteredPasswordIsValid) {
             return;
         }
-
-
+        setModalOn(true)
         resetNameInput();
         resetEmailInput();
         resetUserNameInput();
         resetPasswordInput();
     }
-
+    // This might be the cause of the bug. Place it in the formhandler.
 
     return (
         <>
             <div>
+                {modalOn && <Modal setModalOn={setModalOn} setChoice={setChoice} title='welcome'/>}
                 <h1 className="text-blue-700 text-2xl text-center font-extrabold font-loginpage mb-3 text-5xl">THRIFTSTER</h1>
                 <h3 className="text-blue-700 text-center font-bold font-loginpage mb-3">Share your thrift store finds
                     and locations with others. </h3>
             </div>
 
 
-            <Modal title={signedUp.title} message ={signedUp.message} />
+
             <div className="w-full max-w-xs text-center m-auto"> {/*This is the card that holds the login form */}
                 <form className="bg-gray-200 shadow-md rounded px-8 pt-6 pb-8 mb-4 align-middle"
                       onSubmit={formSubmissionHandler}>
@@ -140,7 +141,7 @@ export const SignUp = () => {
                         {/*Create a modal that lets the user know to check their email for confirmation*/}
                         <button
                             className="bg-blue-500 hover:bg-blue-700 text-white m-auto font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline disabled:opacity-60"
-                            disabled={!formIsValid}>
+                            disabled={!formIsValid} onClick={clicked}>
                             Sign up!
                         </button>
                         <Link href='/loginPage'>

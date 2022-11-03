@@ -2,8 +2,9 @@ import 'tailwindcss/tailwind.css'
 import useInput from "../../hooks";
 import CreateNewAccount from "../createNewAccount";
 import Link from 'next/link'
+import React from 'react'
 
-const isNotEmpty = (value) => value.trim() !== ''
+const isNotEmpty = (value: string) => value.trim() !== ''
 
 export const LoginPage = () => {
 

@@ -1,9 +1,10 @@
 import useInput from "../../hooks";
 import CreateNewAccount from "../createNewAccount";
 import Link from "next/link";
+import React from 'react'
 
 
-const isEmail = (value) => value.includes('@')
+const isEmail = (value: string) => value.includes('@')
 
 export const ForgotPassword = () => {
     const {
