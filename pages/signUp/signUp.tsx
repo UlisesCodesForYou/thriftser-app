@@ -1,6 +1,6 @@
 import useInput from "../../hooks";
 import Link from "next/link";
-import Modal from '../../UI/Modals/index'
+import Modal from '../../UI/Modals'
 import React, {useState} from 'react'
 
 
@@ -9,7 +9,6 @@ const isEmail = (value: string) => value.includes('@')
 
 export const SignUp = (props) => {
     const [modalOn, setModalOn] = useState<boolean>(false);
-    const [choice, setChoice] = useState<boolean>(false);
 
     const clicked = () => {
         setModalOn(true)
@@ -70,18 +69,15 @@ export const SignUp = (props) => {
         resetUserNameInput();
         resetPasswordInput();
     }
-    // This might be the cause of the bug. Place it in the formhandler.
 
     return (
         <>
+            {modalOn && <Modal />}
             <div>
-                {modalOn && <Modal setModalOn={setModalOn} setChoice={setChoice} title='welcome'/>}
                 <h1 className="text-blue-700 text-2xl text-center font-extrabold font-loginpage mb-3 text-5xl">THRIFTSTER</h1>
                 <h3 className="text-blue-700 text-center font-bold font-loginpage mb-3">Share your thrift store finds
                     and locations with others. </h3>
             </div>
-
-
 
             <div className="w-full max-w-xs text-center m-auto"> {/*This is the card that holds the login form */}
                 <form className="bg-gray-200 shadow-md rounded px-8 pt-6 pb-8 mb-4 align-middle"
@@ -160,3 +156,5 @@ export const SignUp = (props) => {
         </>
     )
 }
+
+// onClick={clicked}

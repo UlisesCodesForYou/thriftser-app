@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Updated components to Typescript.  Added a new Modal component.">
+    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment=" Added sticky footer and nav bar. Also, added notification and messeges pages.">
+      <change afterPath="$PROJECT_DIR$/pages/messages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/messages/messages.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/notifications/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/notifications/notifications.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/userSettings/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/userSettings/userSettings.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UI/Modals/modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Modals/modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/use-input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/use-input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/forgotPassword/forgotPassword.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forgotPassword/forgotPassword.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/homePage/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homePage/homePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/signUp/signUp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signUp/signUp.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
@@ -81,7 +83,10 @@
       <workItem from="1665020101868" duration="45110000" />
       <workItem from="1666902676894" duration="20510000" />
       <workItem from="1666987077578" duration="6144000" />
-      <workItem from="1667160689788" duration="64346000" />
+      <workItem from="1667160689788" duration="70828000" />
+      <workItem from="1667501658254" duration="6917000" />
+      <workItem from="1667586878513" duration="1022000" />
+      <workItem from="1667588030255" duration="10699000" />
     </task>
     <task id="LOCAL-00001" summary="Made some modifications to the app.">
       <created>1666892757166</created>
@@ -174,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667359572285</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="  Added a new Modal component.">
+      <created>1667451787814</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667451787815</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +219,8 @@
     <MESSAGE value="Added sticky footer with icons" />
     <MESSAGE value="header is now fixed" />
     <MESSAGE value="Updated components to Typescript.  Added a new Modal component." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated components to Typescript.  Added a new Modal component." />
+    <MESSAGE value="  Added a new Modal component." />
+    <MESSAGE value=" Added sticky footer and nav bar. Also, added notification and messeges pages." />
+    <option name="LAST_COMMIT_MESSAGE" value=" Added sticky footer and nav bar. Also, added notification and messeges pages." />
   </component>
 </project>
