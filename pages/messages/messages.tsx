@@ -7,97 +7,97 @@ export const Messages = () => {
             <div className="flex flex-col h-screen justify-between p-4 w-full max-w-md bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700">
                 <div className="bg-blue-600">
                     <div className="sticky w-full top-0 h-10">
-                        <header className='text-lg text-left font-bold text-white bg-blue-600 ml-4'>Messages</header>
+                        <header className='text-lg text-left font-bold text-white bg-blue-900 text-center'>Messages</header>
                     </div>
-                </div>
-                <div className="flow-root">
-                    <ul role="list" className="divide-y divide-gray-200 dark:divide-gray-700">
-                        <li className="py-3 sm:py-4">
-                            <div className="flex items-center space-x-4">
-                                <div className='mr-2'>
-                                    <Image className="h-8 w-8 rounded-full" width={50} height={50}
-                                           src="https://picsum.photos/id/1027/150/150" alt=''/>
-                                </div>
-                                <div className="flex-1 min-w-0">
-                                    <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
-                                        Neil Sims
-                                    </p>
-                                    <p className="text-sm text-gray-500 truncate dark:text-gray-400">
-                                       Are you still gonna join us at the store tomorrow?
-                                    </p>
-                                </div>
+                    <div className="flow-root mt-5">
+                        <ul role="list" className="divide-y divide-gray-200 dark:divide-gray-700">
+                            <li className="py-3 sm:py-4">
+                                <div className="flex items-center space-x-4">
+                                    <div className='mr-2'>
+                                        <Image className="h-8 w-8 rounded-full" width={50} height={50}
+                                               src="https://picsum.photos/id/1027/150/150" alt=''/>
+                                    </div>
+                                    <div className="flex-1 min-w-0">
+                                        <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                            Neil Sims
+                                        </p>
+                                        <p className="text-sm text-gray-500 truncate dark:text-gray-400">
+                                            Are you still gonna join us at the store tomorrow?
+                                        </p>
+                                    </div>
 
-                            </div>
-                        </li>
-                        <li className="py-3 sm:py-4">
-                            <div className="flex items-center space-x-4">
-                                <div className='mr-2'>
-                                    <Image className="h-8 w-8 rounded-full" width={50} height={50}
-                                           src="https://picsum.photos/id/1027/150/150" alt=''/>
                                 </div>
-                                <div className="flex-1 min-w-0">
-                                    <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
-                                        Bonnie Green
-                                    </p>
-                                    <p className="text-sm text-gray-500 truncate dark:text-gray-400">
-                                        I saw your shirt! Where did you find it?
-                                    </p>
-                                </div>
+                            </li>
+                            <li className="py-3 sm:py-4">
+                                <div className="flex items-center space-x-4">
+                                    <div className='mr-2'>
+                                        <Image className="h-8 w-8 rounded-full" width={50} height={50}
+                                               src="https://picsum.photos/id/1027/150/150" alt=''/>
+                                    </div>
+                                    <div className="flex-1 min-w-0">
+                                        <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                            Bonnie Green
+                                        </p>
+                                        <p className="text-sm text-gray-500 truncate dark:text-gray-400">
+                                            I saw your shirt! Where did you find it?
+                                        </p>
+                                    </div>
 
-                            </div>
-                        </li>
-                        <li className="py-3 sm:py-4">
-                            <div className="flex items-center space-x-4">
-                                <div className='mr-2'>
-                                    <Image className="h-8 w-8 rounded-full" width={50} height={50}
-                                           src="https://picsum.photos/id/1027/150/150" alt=''/>
                                 </div>
-                                <div className="flex-1 min-w-0">
-                                    <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
-                                        Michael Gough
-                                    </p>
-                                    <p className="text-sm text-gray-500 truncate dark:text-gray-400">
-                                        Thanks for adding me!
-                                    </p>
+                            </li>
+                            <li className="py-3 sm:py-4">
+                                <div className="flex items-center space-x-4">
+                                    <div className='mr-2'>
+                                        <Image className="h-8 w-8 rounded-full" width={50} height={50}
+                                               src="https://picsum.photos/id/1027/150/150" alt=''/>
+                                    </div>
+                                    <div className="flex-1 min-w-0">
+                                        <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                            Michael Gough
+                                        </p>
+                                        <p className="text-sm text-gray-500 truncate dark:text-gray-400">
+                                            Thanks for adding me!
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li className="py-3 sm:py-4">
-                            <div className="flex items-center space-x-4">
-                                <div className='mr-2'>
-                                    <Image className="h-8 w-8 rounded-full" width={50} height={50}
-                                           src="https://picsum.photos/id/1027/150/150" alt=''/>
+                            </li>
+                            <li className="py-3 sm:py-4">
+                                <div className="flex items-center space-x-4">
+                                    <div className='mr-2'>
+                                        <Image className="h-8 w-8 rounded-full" width={50} height={50}
+                                               src="https://picsum.photos/id/1027/150/150" alt=''/>
+                                    </div>
+                                    <div className="flex-1 min-w-0">
+                                        <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                            Lana Byrd
+                                        </p>
+                                        <p className="text-sm text-gray-500 truncate dark:text-gray-400">
+                                            Hey! I have the shirt you wanted if you want to swap. LMK
+                                        </p>
+                                    </div>
                                 </div>
-                                <div className="flex-1 min-w-0">
-                                    <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
-                                        Lana Byrd
-                                    </p>
-                                    <p className="text-sm text-gray-500 truncate dark:text-gray-400">
-                                        Hey! I have the shirt you wanted if you want to swap. LMK
-                                    </p>
+                            </li>
+                            <li className="pt-3 pb-0 sm:pt-4">
+                                <div className="flex items-center space-x-4">
+                                    <div className='mr-2'>
+                                        <Image className="h-8 w-8 rounded-full" width={50} height={50}
+                                               src="https://picsum.photos/id/1027/150/150" alt=''/>
+                                    </div>
+                                    <div className="flex-1 min-w-0">
+                                        <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                            Thomes Lean
+                                        </p>
+                                        <p className="text-sm text-gray-500 truncate dark:text-gray-400">
+                                            Did you find any good vinyls this time arouund?
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li className="pt-3 pb-0 sm:pt-4">
-                            <div className="flex items-center space-x-4">
-                                <div className='mr-2'>
-                                    <Image className="h-8 w-8 rounded-full" width={50} height={50}
-                                           src="https://picsum.photos/id/1027/150/150" alt=''/>
-                                </div>
-                                <div className="flex-1 min-w-0">
-                                    <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
-                                        Thomes Lean
-                                    </p>
-                                    <p className="text-sm text-gray-500 truncate dark:text-gray-400">
-                                        Did you find any good vinyls this time arouund?
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
-
 
             <footer className="sticky bottom-0 left-0 z-20 p-4 w-full bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
                 <div className='flex mb-.5'>

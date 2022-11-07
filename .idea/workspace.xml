@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment=" Added sticky footer and nav bar. Also, added notification and messeges pages.">
-      <change afterPath="$PROJECT_DIR$/pages/messages/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/messages/messages.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/notifications/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/notifications/notifications.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/userSettings/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/userSettings/userSettings.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/Modals/modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Modals/modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/homePage/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homePage/homePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/signUp/signUp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signUp/signUp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/messages/messages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/messages/messages.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +76,8 @@
       <workItem from="1667160689788" duration="70828000" />
       <workItem from="1667501658254" duration="6917000" />
       <workItem from="1667586878513" duration="1022000" />
-      <workItem from="1667588030255" duration="10699000" />
+      <workItem from="1667588030255" duration="14778000" />
+      <workItem from="1667663865575" duration="2481000" />
     </task>
     <task id="LOCAL-00001" summary="Made some modifications to the app.">
       <created>1666892757166</created>
@@ -186,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667451787815</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary=" Added sticky footer and nav bar. Also, added notification and messeges pages.">
+      <created>1667605109009</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667605109012</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
