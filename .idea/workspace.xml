@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Fixed spacing bug in the messages folder.  Footer  is correctly spaced at the bottom.">
+    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Fixed spacing bug in the notifications folder.  Footer is correctly spaced at the botton and header is now fixed.">
+      <change afterPath="$PROJECT_DIR$/pages/manageAccount/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/manageAccount/manageAccount.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search/search.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/homePage/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homePage/homePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/messages/messages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/messages/messages.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/notifications/notifications.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/notifications/notifications.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/userSettings/userSettings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/userSettings/userSettings.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +84,9 @@
       <workItem from="1667501658254" duration="6917000" />
       <workItem from="1667586878513" duration="1022000" />
       <workItem from="1667588030255" duration="14778000" />
-      <workItem from="1667663865575" duration="3477000" />
+      <workItem from="1667663865575" duration="6916000" />
+      <workItem from="1667838448420" duration="3081000" />
+      <workItem from="1667844663304" duration="4603000" />
     </task>
     <task id="LOCAL-00001" summary="Made some modifications to the app.">
       <created>1666892757166</created>
@@ -191,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667795717092</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fixed spacing bug in the notifications folder.  Footer is correctly spaced at the botton and header is now fixed.">
+      <created>1667797025640</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667797025640</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +243,7 @@
     <MESSAGE value="  Added a new Modal component." />
     <MESSAGE value=" Added sticky footer and nav bar. Also, added notification and messeges pages." />
     <MESSAGE value="Fixed spacing bug in the messages folder.  Footer  is correctly spaced at the bottom." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed spacing bug in the messages folder.  Footer  is correctly spaced at the bottom." />
+    <MESSAGE value="Fixed spacing bug in the notifications folder.  Footer is correctly spaced at the botton and header is now fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed spacing bug in the notifications folder.  Footer is correctly spaced at the botton and header is now fixed." />
   </component>
 </project>
