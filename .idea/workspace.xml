@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Updated logo in the login page">
+    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Updated messages page format.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/messages/messages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/messages/messages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/homePage/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homePage/homePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/manageAccount/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/manageAccount/manageAccount.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/mapPage/mapPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/mapPage/mapPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +102,7 @@
       <workItem from="1668012850796" duration="2612000" />
       <workItem from="1668098708899" duration="14014000" />
       <workItem from="1668129767849" duration="11011000" />
-      <workItem from="1668186673129" duration="4740000" />
+      <workItem from="1668186673129" duration="10025000" />
     </task>
     <task id="LOCAL-00001" summary="Made some modifications to the app.">
       <created>1666892757166</created>
@@ -262,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668155394243</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Updated messages page format.">
+      <created>1668193266587</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1668193266588</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +315,8 @@
     <MESSAGE value="Updated user settings to contain more content." />
     <MESSAGE value="Centered messages content." />
     <MESSAGE value="Updated logo in the login page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated logo in the login page" />
+    <MESSAGE value="Updated messages page format." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated messages page format." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

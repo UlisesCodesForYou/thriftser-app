@@ -3,11 +3,13 @@ import Link from "next/link";
 export const MapPage = () => {
     return (
         <>
+            {/*##### MAP CONTENT SECTION ####*/}
             <div className="flex flex-col h-screen justify-between bg-white w-full">
                 <div className="sticky top-0 z-50 w-full bg-white">
-                    <header className="text-lg font-bold text-white bg-blue-900 text-center h-10 align-middle grid place-content-center">Pin your store's location! </header>
+                    <header className="text-lg font-bold text-white bg-blue-900 text-center h-10 align-middle grid place-content-center">Pin your stores location! </header>
                 </div>
-                <h1>This the map page that should hold a map.</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13229.879601940278!2d-118.2861271!3d34.00614734999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1668196010928!5m2!1sen!2sus"
+                    className="w-auto h-full mr-3 ml-3 mt-3 mb-3" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 {/*#### FOOTER SECTION ######*/}
                 <footer className="sticky bottom-0 left-0 z-20 p-4 w-full bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
                     <div className='flex mb-.5'>
