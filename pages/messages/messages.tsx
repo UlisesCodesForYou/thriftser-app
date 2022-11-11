@@ -37,7 +37,7 @@ export const Messages = () => {
                                 </div>
                             </li>
                             {/*#### I LEFT OFF HERE FIX THE MARGIN###*/}
-                            <li className="mt-0 flex place-items-center">
+                            <li className="pt-3">
                                 <div className="flex items-center space-x-4">
                                     <div className='mr-2'>
                                         <Image className="h-8 w-8 rounded-full" width={50} height={50}
@@ -54,7 +54,7 @@ export const Messages = () => {
 
                                 </div>
                             </li>
-                            <li className="py-3">
+                            <li className="pt-3">
                                 <div className="flex items-center space-x-4">
                                     <div className='mr-2'>
                                         <Image className="h-8 w-8 rounded-full truncate" width={50} height={50}
@@ -70,7 +70,7 @@ export const Messages = () => {
                                     </div>
                                 </div>
                             </li>
-                            <li className="py-3">
+                            <li className="pt-3">
                                 <div className="flex items-center space-x-4">
                                     <div className='mr-2'>
                                         <Image className="h-8 w-8 rounded-full" width={50} height={50}
@@ -102,7 +102,7 @@ export const Messages = () => {
                                     </div>
                                 </div>
                             </li>
-                            <li className="py-3">
+                            <li className="pt-3">
                                 <div className="flex items-center space-x-4">
                                     <div className='mr-2'>
                                         <Image className="h-8 w-8 rounded-full" width={50} height={50}
@@ -116,10 +116,58 @@ export const Messages = () => {
                                             Are you still gonna join us at the store tomorrow?
                                         </p>
                                     </div>
+                                </div>
+                            </li>
+                            <li className="pt-3">
+                                <div className="flex items-center space-x-4">
+                                    <div className='mr-2'>
+                                        <Image className="h-8 w-8 rounded-full" width={50} height={50}
+                                               src="https://picsum.photos/id/1027/150/150" alt=''/>
+                                    </div>
+                                    <div className="flex-1 min-w-0">
+                                        <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                            Ali Jones
+                                        </p>
+                                        <p className="text-sm text-gray-500 truncate dark:text-gray-400">
+                                            Omg! You are so lucky! Can you share your store location?
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li className="pt-3">
+                                <div className="flex items-center space-x-4">
+                                    <div className='mr-2'>
+                                        <Image className="h-8 w-8 rounded-full" width={50} height={50}
+                                               src="https://picsum.photos/id/1027/150/150" alt=''/>
+                                    </div>
+                                    <div className="flex-1 min-w-0">
+                                        <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                            Vintage Levi lover
+                                        </p>
+                                        <p className="text-sm text-gray-500 truncate dark:text-gray-400">
+                                            I got some jeans if you want to see them. Lmk!
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li className="pt-3">
+                                <div className="flex items-center space-x-4">
+                                    <div className='mr-2'>
+                                        <Image className="h-8 w-8 rounded-full" width={50} height={50}
+                                               src="https://picsum.photos/id/1027/150/150" alt=''/>
+                                    </div>
+                                    <div className="flex-1 min-w-0">
+                                        <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                            SupremeCollector
+                                        </p>
+                                        <p className="text-sm text-gray-500 truncate dark:text-gray-400">
+                                            Can you keep an eye out for more Supreme shirts?
+                                        </p>
+                                    </div>
 
                                 </div>
                             </li>
-                            <li className="py-3">
+                            <li className="pt-3">
                                 <div className="flex items-center space-x-4">
                                     <div className='mr-2'>
                                         <Image className="h-8 w-8 rounded-full" width={50} height={50}
@@ -133,58 +181,6 @@ export const Messages = () => {
                                             Are you still gonna join us at the store tomorrow?
                                         </p>
                                     </div>
-
-                                </div>
-                            </li>
-                            <li className="py-3">
-                                <div className="flex items-center space-x-4">
-                                    <div className='mr-2'>
-                                        <Image className="h-8 w-8 rounded-full" width={50} height={50}
-                                               src="https://picsum.photos/id/1027/150/150" alt=''/>
-                                    </div>
-                                    <div className="flex-1 min-w-0">
-                                        <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
-                                            Neil Sims
-                                        </p>
-                                        <p className="text-sm text-gray-500 truncate dark:text-gray-400">
-                                            Are you still gonna join us at the store tomorrow?
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li className="py-3">
-                                <div className="flex items-center space-x-4">
-                                    <div className='mr-2'>
-                                        <Image className="h-8 w-8 rounded-full" width={50} height={50}
-                                               src="https://picsum.photos/id/1027/150/150" alt=''/>
-                                    </div>
-                                    <div className="flex-1 min-w-0">
-                                        <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
-                                            Neil Sims
-                                        </p>
-                                        <p className="text-sm text-gray-500 truncate dark:text-gray-400">
-                                            Are you still gonna join us at the store tomorrow?
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li className="py-3">
-                                <div className="flex items-center space-x-4">
-                                    <div className='mr-2'>
-                                        <Image className="h-8 w-8 rounded-full" width={50} height={50}
-                                               src="https://picsum.photos/id/1027/150/150" alt=''/>
-                                    </div>
-                                    <div className="flex-1 min-w-0">
-                                        <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
-                                            Neil Sims
-                                        </p>
-                                        <p className="text-sm text-gray-500 truncate dark:text-gray-400">
-                                            Are you still gonna join us at the store tomorrow?
-                                        </p>
-                                    </div>
-
                                 </div>
                             </li>
                         </ul>
