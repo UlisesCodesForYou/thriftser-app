@@ -19,9 +19,9 @@ export const Messages = () => {
                         </div>
                         {/*#### END OF SEARCH BUTTON SECTION ###*/}
                     </div>
-                    <div className="flow-root mt-5">
+                    <div className="flow-root mt-1">
                         <ul role="list" className="divide-y divide-black bg-gray-100 space-y-4">
-                            <li className="py-3">
+                            <li className="">
                                 <div className="flex items-center space-x-4">
                                     <Image className="h-8 w-8 rounded-full " width={50} height={50}
                                            src="https://picsum.photos/id/244/900/900" alt=''/>
@@ -36,7 +36,8 @@ export const Messages = () => {
 
                                 </div>
                             </li>
-                            <li className="py-3">
+                            {/*#### I LEFT OFF HERE FIX THE MARGIN###*/}
+                            <li className="mt-0 flex place-items-center">
                                 <div className="flex items-center space-x-4">
                                     <div className='mr-2'>
                                         <Image className="h-8 w-8 rounded-full" width={50} height={50}
