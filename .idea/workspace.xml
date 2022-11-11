@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Centered messages content.">
+    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Updated logo in the login page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/messages/messages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/messages/messages.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,8 @@
       <workItem from="1667927225388" duration="1802000" />
       <workItem from="1668012850796" duration="2612000" />
       <workItem from="1668098708899" duration="14014000" />
-      <workItem from="1668129767849" duration="10310000" />
+      <workItem from="1668129767849" duration="11011000" />
+      <workItem from="1668186673129" duration="4740000" />
     </task>
     <task id="LOCAL-00001" summary="Made some modifications to the app.">
       <created>1666892757166</created>
@@ -254,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668154601841</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Updated logo in the login page">
+      <created>1668155394242</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1668155394243</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +304,8 @@
     <MESSAGE value="Adjusted header content to align correctly. Also, began construction of the map component." />
     <MESSAGE value="Updated user settings to contain more content." />
     <MESSAGE value="Centered messages content." />
-    <option name="LAST_COMMIT_MESSAGE" value="Centered messages content." />
+    <MESSAGE value="Updated logo in the login page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated logo in the login page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -304,7 +313,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/pages/mapPage/mapPage.tsx</url>
           <line>2</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
