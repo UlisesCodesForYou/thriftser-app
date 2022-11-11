@@ -4,22 +4,119 @@ import Link from "next/link";
 export const Search = () => {
     return (
         <>
-            <div className="flex flex-col h-screen justify-between p-4 w-full max-w-md bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+            <div className="flex flex-col h-screen justify-between p-4 w-full max-w-md bg-white rounded-lg bordersm:p-8 dark:bg-gray-800 dark:border-gray-700">
                 {/*##### SEARCH BAR #######*/}
-                <div className="flex justify-center">
+                <div className="mt-1 justify-center">
                     <div className="mb-3 xl:w-96">
-                        <div className="input-group relative flex flex-wrap items-stretch w-full mb-4">
-                            <input type="search" className="form-control relative flex-auto min-w-0 block mt-4 w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                   placeholder="Search" aria-label="Search" aria-describedby="button-addon3" />
-                            <button className="btn bg-blue-600 inline-block px-6 py-2 border-2 border-blue-600 text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-blue-400 focus:outline-none focus:ring-0 transition duration-150 ease-in-out m-auto mt-4"
-                                    type="button" id="button-addon3">Search
-                            </button>
+                        <div className="input-group relative flex flex-wrap items-stretch w-full mb-4 rounded">
+                            <input type="search" className="form-control relative flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-gray-200 bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" />
                         </div>
                     </div>
                 </div>
-
                 <div>
                     {/*####### SEARCH FEED ########*/}
+                    <section className="overflow-hidden text-gray-700">
+                        <div className="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
+                            <div className="flex flex-wrap -m-1 md:-m-2">
+                                <div className="flex flex-wrap w-1/2">
+                                    <div className="w-1/2 p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/244/900/900" />
+                                    </div>
+                                    <div className="w-1/2 p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/1027/150/150" alt='' />
+                                    </div>
+                                    <div className="w-full p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/244/900/900" alt='' />
+                                    </div>
+                                </div>
+                                <div className="flex flex-wrap w-1/2">
+                                    <div className="w-full p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/1027/150/150" alt='' />
+                                    </div>
+                                    <div className="w-1/2 p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/244/900/900" alt='' />
+                                    </div>
+                                    <div className="w-1/2 p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/1027/150/150" alt=''/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="overflow-hidden text-gray-700">
+                        <div className="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
+                            <div className="flex flex-wrap -m-1 md:-m-2">
+                                <div className="flex flex-wrap w-1/2">
+                                    <div className="w-1/2 p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/1027/150/150" />
+                                    </div>
+                                    <div className="w-1/2 p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/244/900/900" alt='' />
+                                    </div>
+                                    <div className="w-full p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/244/900/900"alt='' />
+                                    </div>
+                                </div>
+                                <div className="flex flex-wrap w-1/2">
+                                    <div className="w-full p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/1027/150/150" alt='' />
+                                    </div>
+                                    <div className="w-1/2 p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/1027/150/150" alt='' />
+                                    </div>
+                                    <div className="w-1/2 p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/244/900/900" alt=''/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="overflow-hidden text-gray-700">
+                        <div className="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
+                            <div className="flex flex-wrap -m-1 md:-m-2">
+                                <div className="flex flex-wrap w-1/2">
+                                    <div className="w-1/2 p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/1027/150/150" />
+                                    </div>
+                                    <div className="w-1/2 p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/1027/150/150" alt='' />
+                                    </div>
+                                    <div className="w-full p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/244/900/900" alt='' />
+                                    </div>
+                                </div>
+                                <div className="flex flex-wrap w-1/2">
+                                    <div className="w-full p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/1027/150/150" alt='' />
+                                    </div>
+                                    <div className="w-1/2 p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/244/900/900" alt='' />
+                                    </div>
+                                    <div className="w-1/2 p-1 md:p-2">
+                                        <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
+                                               src="https://picsum.photos/id/1027/150/150" alt=''/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     <section className="overflow-hidden text-gray-700">
                         <div className="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
                             <div className="flex flex-wrap -m-1 md:-m-2">
@@ -40,7 +137,7 @@ export const Search = () => {
                                 <div className="flex flex-wrap w-1/2">
                                     <div className="w-full p-1 md:p-2">
                                         <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
-                                               src="https://picsum.photos/id/1027/150/150" alt='' />
+                                               src="https://picsum.photos/id/244/900/900" alt='' />
                                     </div>
                                     <div className="w-1/2 p-1 md:p-2">
                                         <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
@@ -48,7 +145,7 @@ export const Search = () => {
                                     </div>
                                     <div className="w-1/2 p-1 md:p-2">
                                         <Image className="block object-cover object-center w-full h-full rounded-lg" width={150} height={150}
-                                               src="https://picsum.photos/id/1027/150/150" alt=''/>
+                                               src="https://picsum.photos/id/244/900/900" alt=''/>
                                     </div>
                                 </div>
                             </div>
@@ -56,7 +153,7 @@ export const Search = () => {
                     </section>
                 </div>
 
-                <footer className="sticky bottom-0 left-0 z-20 p-4 w-full bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
+                <footer className="fixed bottom-0 left-0 z-20 p-4 w-full bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
                     <div className='flex mb-.5'>
                         <div className='flex m-auto'>
                             <ul className="flex space-x-12 mt-.5">

@@ -97,7 +97,7 @@ export const LoginPage = () => {
                 </form>
                 <CreateNewAccount/>
                 <p className="text-center text-gray-500 text-xs">
-                    &copy;2022 Uli Corp. All rights reserved.
+                    &copy;PLEASE USE MOBILE VIEW FOR THIS APP IF VIEWING FROM A DESKTOP.
                 </p>
             </div>
 
