@@ -8,16 +8,13 @@ export const Messages = () => {
                 <header className='text-lg font-bold text-white bg-blue-900 text-center h-10 grid place-content-center '>Messages</header>
                 {/*#### SEARCH BUTTON #####*/}
                 <div className="mt-1 justify-center">
-                    <div className="xl:w-96">
-                        <div className="input-group relative flex flex-wrap items-stretch w-full mb-4 rounded">
-                            <input type="search" className="form-control relative flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-gray-200 bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" />
-                        </div>
+                    <div className="input-group relative flex flex-wrap items-stretch w-full mb-4 rounded">
+                        <input type="search" className="form-control relative flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-gray-200 bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" />
                     </div>
                 </div>
                 {/*#### END OF SEARCH BUTTON SECTION ###*/}
             </div>
-            <div className="flex flex-col h-screen justify-between p-4 w-full max-w-md bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700">
-
+            <div className="flex flex-col h-screen justify-between p-4 w-full max-w-md bg-white mt-20 mb-30">
                 <div className="bg-white">
                     <div className="flow-root mt-2">
                         <ul role="list" className="divide-y divide-black bg-gray-100 space-y-4">
