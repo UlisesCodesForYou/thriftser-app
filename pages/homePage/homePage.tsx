@@ -25,13 +25,15 @@ export const HomePage = () => {
                                           d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"/>
                                 </svg>
                             </Link>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                 strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-2xl mr-2">
-                                <path strokeLinecap="round" strokeLinejoin="round"
-                                      d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/>
-                                <path strokeLinecap="round" strokeLinejoin="round"
-                                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/>
-                            </svg>
+                            <Link href="/mapPage">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                     strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-2xl mr-2">
+                                    <path strokeLinecap="round" strokeLinejoin="round"
+                                          d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                    <path strokeLinecap="round" strokeLinejoin="round"
+                                          d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/>
+                                </svg>
+                            </Link>
                         </div>
 
                     </div>
@@ -236,7 +238,6 @@ export const HomePage = () => {
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
                                     <path fillRule="evenodd" d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                                 </svg>
-
                             </li>
                             <li>
                                 <Link href='/userSettings'>

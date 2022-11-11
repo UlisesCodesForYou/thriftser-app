@@ -8,7 +8,7 @@ export const Messages = () => {
             <div className="flex flex-col h-screen justify-between p-4 w-full max-w-md bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700">
                 <div className="bg-white">
                     <div className="sticky top-0 z-50 w-full bg-white">
-                        <header className='text-lg font-bold text-white bg-blue-900 text-center h-10'>Messages</header>
+                        <header className='text-lg font-bold text-white bg-blue-900 text-center h-10 grid place-content-center'>Messages</header>
                         {/*#### SEARCH BUTTON #####*/}
                         <div className="mt-1 justify-center">
                             <div className="mb-3 xl:w-96">

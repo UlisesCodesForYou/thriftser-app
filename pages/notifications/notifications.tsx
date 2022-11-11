@@ -6,7 +6,7 @@ export const Notifications = () => {
         <>
             <div className="bg-white h-screen flex flex-col h-screen justify-between">
                 <div className="sticky w-full top-0 h-10">
-                    <header className='text-lg font-bold text-white bg-blue-900 text-center h-10'>Notifications</header>
+                    <header className='text-lg font-bold text-white bg-blue-900 text-center h-10 grid place-content-center'>Notifications</header>
                     <div className="w-full h-auto relative bg-white">
                         <div className="bg-white px-5 py-3.5 rounded-lg shadow hover:shadow-xl max-w-sm mx-auto mb-3 mt-3">
                             <div className="w-full flex items-center justify-between">
@@ -23,7 +23,7 @@ export const Notifications = () => {
                                 <div className="ml-3">
                                     <span className="font-semibold tracking-tight text-xs">John Doe</span>
                                     <span className="text-xs leading-none opacity-50">reacted to your comment:</span>
-                                    <p className="text-xs leading-4 pt-2 italic opacity-70">Can I see your feet?</p>
+                                    <p className="text-xs leading-4 pt-2 italic opacity-70">Did you buy those shoes??</p>
                                     <span className="text-[10px] text-blue-500 font-medium leading-4 opacity-75">a few seconds ago</span>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ export const Notifications = () => {
                                     <span className="absolute h-4 w-4 bg-green-400 rounded-full bottom-0 right-0 border-2 border-white"></span>
                                 </div>
                                 <div className="ml-3">
-                                    <span className="font-semibold tracking-tight text-xs">Foot Fetish Kid </span>
+                                    <span className="font-semibold tracking-tight text-xs">Vintage Levi </span>
                                     <span className="text-xs leading-none opacity-50">reacted to your comment:</span>
                                     <p className="text-xs leading-4 pt-2 italic opacity-70">This is the comment...</p>
                                     <span className="text-[10px] text-blue-500 font-medium leading-4 opacity-75">a few seconds ago</span>
