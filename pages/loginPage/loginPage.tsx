@@ -3,7 +3,7 @@ import useInput from "../../hooks";
 import CreateNewAccount from "../createNewAccount";
 import Link from 'next/link'
 import React from 'react'
-import Image from "next/image";
+
 
 const isNotEmpty = (value: string) => value.trim() !== ''
 

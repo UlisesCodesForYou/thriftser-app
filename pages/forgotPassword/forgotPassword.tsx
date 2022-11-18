@@ -34,8 +34,8 @@ export const ForgotPassword = () => {
             <div>
                 <h1 className="text-blue-700 text-2xl text-center font-extrabold font-loginpage mb-3 text-5xl">Trouble
                     logging in? </h1>
-                <h3 className="text-blue-700 text-center font-bold font-loginpage mb-3">Enter you email and we'll send
-                    you a link so you can log back in!</h3>
+                <h3 className="text-blue-700 text-center font-bold font-loginpage mb-3">Enter you email and we will send
+                    you a link so you can log back in.</h3>
             </div>
             <div className="w-full max-w-xs text-center m-auto"> {/*This is the card that holds the login form */}
                 <form className="bg-gray-200 shadow-md rounded px-8 pt-6 pb-8 mb-4 align-middle"

@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Small change.">
-      <change afterPath="$PROJECT_DIR$/public/Thrift-Logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/createNewAccount/createNewAccount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/createNewAccount/createNewAccount.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/forgotPassword/forgotPassword.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forgotPassword/forgotPassword.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/userSettings/userSettings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/userSettings/userSettings.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +114,7 @@
       <workItem from="1668463602726" duration="1077000" />
       <workItem from="1668562790309" duration="79000" />
       <workItem from="1668625087276" duration="737000" />
-      <workItem from="1668708007780" duration="4321000" />
+      <workItem from="1668708007780" duration="5520000" />
     </task>
     <task id="LOCAL-00001" summary="Made some modifications to the app.">
       <created>1666892757166</created>
@@ -303,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668221052076</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Small change.">
+      <created>1668725744701</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1668725744702</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,17 +357,6 @@
     <MESSAGE value="Fixed under flow of content from the messages page." />
     <MESSAGE value="Small change." />
     <option name="LAST_COMMIT_MESSAGE" value="Small change." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/pages/mapPage/mapPage.tsx</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
