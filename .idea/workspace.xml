@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Small change.">
+    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Updated components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/createNewAccount/createNewAccount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/createNewAccount/createNewAccount.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/forgotPassword/forgotPassword.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forgotPassword/forgotPassword.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/userSettings/userSettings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/userSettings/userSettings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/search/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search/search.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +111,7 @@
       <workItem from="1668463602726" duration="1077000" />
       <workItem from="1668562790309" duration="79000" />
       <workItem from="1668625087276" duration="737000" />
-      <workItem from="1668708007780" duration="5520000" />
+      <workItem from="1668708007780" duration="6421000" />
     </task>
     <task id="LOCAL-00001" summary="Made some modifications to the app.">
       <created>1666892757166</created>
@@ -312,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668725744702</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Updated components">
+      <created>1668747114654</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1668747114654</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +335,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adjusted header font weight." />
     <MESSAGE value="Added log in page validation" />
     <MESSAGE value="both buttons are now disabled until the forms are valid." />
     <MESSAGE value="Added forgot password page." />
@@ -356,7 +359,8 @@
     <MESSAGE value="Added a map component. Also fixed the underflow of content." />
     <MESSAGE value="Fixed under flow of content from the messages page." />
     <MESSAGE value="Small change." />
-    <option name="LAST_COMMIT_MESSAGE" value="Small change." />
+    <MESSAGE value="Updated components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated components" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
