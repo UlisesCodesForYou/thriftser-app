@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Updated components">
+    <list default="true" id="7cb71922-498f-470f-b60b-1702ca7574d1" name="Changes" comment="Updated components and added alt text.">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/search/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/forgotPassword/forgotPassword.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forgotPassword/forgotPassword.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/homePage/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homePage/homePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/loginPage/loginPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +26,6 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/languageService/eslint/bin/eslint8-plugin.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tailwind.config.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -40,27 +42,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/ulisesorozco/Desktop/Portfolio Projects/thriftster-app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/usr/local/Cellar/node/16.9.1/lib/node_modules/prettier",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "/Users/ulisesorozco/Desktop/Portfolio Projects/thriftster-app/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ulisesorozco/Desktop/Portfolio Projects/thriftster-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/usr/local/Cellar/node/16.9.1/lib/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/ulisesorozco/Desktop/Portfolio Projects/thriftster-app/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -111,7 +113,25 @@
       <workItem from="1668463602726" duration="1077000" />
       <workItem from="1668562790309" duration="79000" />
       <workItem from="1668625087276" duration="737000" />
-      <workItem from="1668708007780" duration="6421000" />
+      <workItem from="1668708007780" duration="7910000" />
+      <workItem from="1668793289477" duration="1197000" />
+      <workItem from="1668892818759" duration="575000" />
+      <workItem from="1668916193308" duration="615000" />
+      <workItem from="1668963593448" duration="586000" />
+      <workItem from="1669053109496" duration="1852000" />
+      <workItem from="1669140894855" duration="588000" />
+      <workItem from="1669177585287" duration="1194000" />
+      <workItem from="1669226386739" duration="595000" />
+      <workItem from="1669579887616" duration="596000" />
+      <workItem from="1669654879896" duration="577000" />
+      <workItem from="1669658719201" duration="1220000" />
+      <workItem from="1669742810333" duration="594000" />
+      <workItem from="1669829799707" duration="1192000" />
+      <workItem from="1669846867706" duration="161000" />
+      <workItem from="1669847094966" duration="663000" />
+      <workItem from="1669916285053" duration="595000" />
+      <workItem from="1670179139801" duration="591000" />
+      <workItem from="1670259356112" duration="353000" />
     </task>
     <task id="LOCAL-00001" summary="Made some modifications to the app.">
       <created>1666892757166</created>
@@ -316,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668747114654</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Updated components and added alt text.">
+      <created>1668747829865</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1668747829865</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +362,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added log in page validation" />
     <MESSAGE value="both buttons are now disabled until the forms are valid." />
     <MESSAGE value="Added forgot password page." />
     <MESSAGE value="Created mock home page and linked pages together" />
@@ -360,7 +386,8 @@
     <MESSAGE value="Fixed under flow of content from the messages page." />
     <MESSAGE value="Small change." />
     <MESSAGE value="Updated components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated components" />
+    <MESSAGE value="Updated components and added alt text." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated components and added alt text." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -61,7 +61,8 @@ export const ForgotPassword = () => {
                             Send login link
                         </button>
                         <Link href='/loginPage'>
-                            <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow m-auto">
+                            <button
+                                className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow m-auto">
                                 Cancel
                             </button>
                         </Link>
